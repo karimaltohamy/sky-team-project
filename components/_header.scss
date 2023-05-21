@@ -7,6 +7,10 @@ header {
   background-color: $dark-color;
   color: white;
 
+  &.transparent_bg {
+    background-color: transparent;
+  }
+
   .container {
     display: flex;
     align-items: center;
@@ -28,9 +32,11 @@ header {
       .list_Links {
         position: relative;
 
-        .link:hover + .list {
-          transform: translateY(0);
-          opacity: 1;
+        &:hover {
+          .list {
+            transform: translateY(0);
+            opacity: 1;
+          }
         }
 
         .list {
@@ -42,7 +48,7 @@ header {
           border-bottom: 4px solid $primary-color;
           width: 200px;
           color: $dark-color !important;
-          z-index: 99;
+          z-index: 999;
           transform: translateY(30px);
           opacity: 0;
           transition: all 0.4s;

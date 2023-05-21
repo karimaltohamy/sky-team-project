@@ -1,5 +1,9 @@
 @use "../components/header";
+@use "../components/footer";
+@use "../components/banner-two";
 @use "../pages/index";
+@use "../pages/course-details";
+@use "../pages/about";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
@@ -54,4 +58,5 @@ svg {
     }
   }
 }
+
 // end banner_section
