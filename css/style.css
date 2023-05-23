@@ -81,6 +81,14 @@ header .container .links .link.active {
 header .container .links .link:hover {
   color: #dcbb87 !important;
 }
+header .container .links .dropdown button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+header .container .links .dropdown button::after {
+  display: none;
+}
 header .container .links .btn_login {
   padding: 10px 25px;
   border-radius: 50px;
