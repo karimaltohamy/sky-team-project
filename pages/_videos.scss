@@ -29,6 +29,7 @@ $primary-color: #dcbb87;
       background-color: white;
       border-radius: 6px;
       overflow: hidden;
+      display: block;
 
       .image {
         img {
@@ -91,6 +92,7 @@ $primary-color: #dcbb87;
       border-radius: 6px;
       overflow: hidden;
       cursor: pointer;
+      display: block;
 
       .image {
         position: relative;
